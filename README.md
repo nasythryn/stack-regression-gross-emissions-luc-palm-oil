@@ -27,12 +27,12 @@ Model stacking memberi galat terendah dan R² tertinggi pada data uji (tahun 202
 
 | Model | RMSE Uji | MAE Uji | R² Uji |
 |---|---:|---:|---:|
-| **Stacking GB + KNN + SVR** | **308.104** | **106.606** | **0,758** |
-| Gradient Boosting | 318.583 | 119.263 | 0,741 |
-| KNN | 319.952 | 113.760 | 0,739 |
-| SVR | 330.108 | 146.499 | 0,722 |
+| **Stacking GB + KNN + SVR** | **308.103,98** | **106.606,05** | **0,7578** |
+| Gradient Boosting | 318.583,83 | 114.775,45 | 0,7411 |
+| KNN | 319.952,18 | 113.760,50 | 0,7388 |
+| SVR | 330.108,00 | 123.286,57 | 0,7220 |
 
-*(RMSE dan MAE dalam tonnes CO₂-eq. Nilai diambil dari `hasil_excel/hasil_stacking.xlsx`, sheet `evaluasi_model`.)*
+*(RMSE dan MAE dalam tonnes CO₂-eq. Nilai diambil dari `hasil/hasil_stacking.xlsx`, sheet `evaluasi_model`.)*
 
 - RMSE uji stacking sekitar **3,3% lebih rendah** dari Gradient Boosting, model dasar terbaik.
 
@@ -40,11 +40,11 @@ Model stacking memberi galat terendah dan R² tertinggi pada data uji (tahun 202
 
 | Model dasar | Koefisien |
 |---|---:|
-| Gradient Boosting | 0,668 |
-| KNN | 0,256 |
-| SVR | 0,068 |
+| Gradient Boosting | 0,6682 |
+| KNN | 0,2557 |
+| SVR | 0,0684 |
 
-Gradient Boosting paling berpengaruh pada prediksi akhir, KNN menyumbang sedang, dan SVR paling kecil. Intercept 0,008 dan alpha Ridge 1,0.
+Gradient Boosting paling berpengaruh pada prediksi akhir, KNN menyumbang sedang, dan SVR paling kecil. Intercept 0,0076 dan alpha Ridge 1,0.
 
 ### Waktu komputasi
 
