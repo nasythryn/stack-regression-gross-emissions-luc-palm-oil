@@ -62,16 +62,15 @@ Stacking paling lambat karena menjalankan ketiga model dasar sekaligus, tetapi i
 ```
 NAMA-REPO/
 ├── README.md
-├── stack_clip.ipynb
+├── stack.ipynb
 ├── data/
 │   └── Gross_emissions.csv
-├── hasil_excel/
+├── hasil/
 │   ├── hasil_preprocessing.xlsx          # data skala log1p & RobustScaler, parameter scaler
 │   ├── hasil_stacking.xlsx               # OOF, koefisien meta-learner, evaluasi, waktu komputasi
 │   ├── hasil_invers_prediksi.xlsx        # aktual & prediksi di tiap skala, per model
 │   ├── hasil_aktual_vs_prediksi.xlsx     # fitur, aktual, prediksi, selisih (data uji)
-│   └── hasil_sampel_terbaik_terburuk.xlsx
-└── gambar/
+└── visualisasi/
     └── (grafik .png)
 ```
 
