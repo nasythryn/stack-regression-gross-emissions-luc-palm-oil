@@ -2,7 +2,7 @@
 
 Prediksi *gross emissions* dari alih fungsi lahan (tonnes CO₂-equivalent) per kabupaten menggunakan **Stacking Regressor** (Gradient Boosting + KNN + SVR, meta-learner Ridge).
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/USERNAME/NAMA-REPO/blob/main/stack_clip.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nasythryn/stack-regression-gross-emissions-luc-palm-oil/blob/main/stack_clip.ipynb)
 
 ## Metode
 
@@ -95,7 +95,3 @@ NAMA-REPO/
 ## Library
 
 Python 3, numpy, pandas, scikit-learn, scipy, matplotlib, seaborn, openpyxl.
-
-## Catatan
-
-Ganti `USERNAME` dan `NAMA-REPO` pada tombol Colab dengan akun dan nama repositori GitHub Anda.
