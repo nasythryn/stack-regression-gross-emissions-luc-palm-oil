@@ -56,6 +56,7 @@ Gradient Boosting paling berpengaruh pada prediksi akhir, KNN menyumbang sedang,
 | Stacking | 60,04 | 71,1 |
 
 Stacking paling lambat karena menjalankan ketiga model dasar sekaligus, tetapi inferensinya tetap sekitar 0,18 ms per sampel.
+*(angka dalam waktu komputasi dan inferensi dapat berubah-ubah setiap dijalankan ulang)*
 
 ## Struktur Repositori
 
